@@ -1,0 +1,127 @@
+<!-- Afin de valider ton code HTML, fais un copier-coller de ce dernier et rends-toi sur https://validator.w3.org/#validate_by_input. 
+Click sur l'onglet "Validate by Direct Input" et colle ton code HTML, click ensuite sur le bouton "Check", et tu verras ensuite (si tu en as) les erreurs HTML s'afficher plus bas.
+Tu peux jeter un oeil par ici pour en savoir un peu plus: https://www.243tech.com/valider-vos-codes-html-et-css-sur-validator-w3-org/ -->
+
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Wild Circus</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Montserrat|Raleway" rel="stylesheet">
+  
+</head>
+
+<body>
+   
+    <header>
+      <h1>Wild Circus</h1>
+      <nav>
+        <ul>
+            <li><a href="#Performances">Performances</a></li>
+            <li><a href="#About Us">About Us</a></li>
+            <li><a href="#Prices">Prices</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+
+    <section id="principal">
+      <h2 id="Performances">Performances</h2>
+        <ul id="conteneur">
+          <section class="performance1">
+            <li>
+              <h3>Laugh</h3>
+              <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks let yourself be carried away by their joy and fall back into childhood.</p>
+            </li>
+          </section>
+
+          <section class="performance2">
+            <li>
+                <h3>Dream</h3>
+                <p>Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.</p>
+            </li>
+          </section>
+
+          <section class="performance3">
+            <li>
+                <h3>Marvel at</h3>
+                <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch these fierce felines turn into sweet kittens.</p>
+            </li>
+          </section>
+      </ul>
+    </section>
+
+ 
+
+    <section class="About">
+      <h2 id="About Us">About Us</h2>
+      <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
+      
+      <a href='https://www.hebergeur-image.com/'><img src='https://www.hebergeur-image.com/upload/92.88.248.31-5cd2c298a44c6.png'/></a>
+
+      <p>Originally composed of 20 street performers in 1984, Wild Circus Entertainment Group completely reinvented circus arts and         went on to become a world leader in live entertainment.</p>
+
+      <p>On top of producing world-renowned shows, Wild Circus           Entertainment Group extends its creative approach to a large              variety of entertainment forms such as multimedia productions,       immersive experiences, theme parks and special events. Going          beyond its various creations, Cirque du Soleil Entertainment Group      aims to make a positive impact on people, communities and the            planet with its most important tools: creativity and art.</p>
+
+          <p>Divisions of Wild Circus Entertainment Group</p>
+    </section>
+
+
+    <section id="tableau">
+      <h2 id="Prices">Prices</h2>
+        <table border="1">
+        <thead>
+          <th></th>
+          <th>Adults</th>
+          <th>Children under 12 years</th>
+          <th>Groups (more than 10 people)</th>
+          <th>Schools</th>
+        </thead>
+
+        <tbody> 
+          <tr>
+            <th>Weeks excluding Wednesdays</th>
+            <td>15$</td>
+            <td>10$</td>
+            <td>10$</td>
+            <td>7$</td>
+          </tr>
+          <tr>
+            <th>Week-end and Wednesday</th>
+            <td>20$</td>
+            <td>15$</td>
+            <td>15$</td>
+            <td>10$</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+    <section>
+      <h2 id="Contact">Contact Us</h2>
+        <form action="/my-handling-form-page" method="post">
+          <div>
+            <label for="mail">E-mail:</label> <input type="email" id="mail" name="user_mail" placeholder="willywild@mail.com">
+          </div>
+          <div>
+            <label for="msg">Message:</label> <textarea id="msg" name="user_message"></textarea>
+          </div>
+          <div class="button">
+            <button type="submit">Send your message</button>
+          </div>
+        </form>
+    </section>
+
+    <footer>
+      <p>Wild Circus by <strong>Aurélia Zigman</strong></p>
+      <p><a href="http://www.france-ioi.org/user/perso.php?sLogin=liliazig" target="_blank"><img src="https://zupimages.net/up/19/14/41l2.png" alt="France-IOI"  class="france-ioi"></a> 
+         <a href="https://www.sololearn.com/Profile/13823023" target="_blank"><img src="https://zupimages.net/up/19/14/699u.png" alt="SoloLearn"  class="sololearn"></a>
+         <a href="https://wildcodeschool.fr" target="blank"><img src="https://avatars3.githubusercontent.com/u/8874047?s=200&v=4" alt="wildcodeschool" class="wildcodeschool"></a>
+      </p>
+      <p>07/05/2019</p>
+    </footer>
+</body>
+</html>

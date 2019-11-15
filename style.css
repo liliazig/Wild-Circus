@@ -1,0 +1,240 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Design général de la page */
+
+body{
+    background-color: beige;
+}
+
+header{
+  background-image:
+  url("http://www.mjcveigy.fr/wp-content/uploads/2017/01/cirque.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  border-bottom: solid white 10px;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  font-size: 8em;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  margin: 0mm;
+}
+
+h2{
+    text-align: center;
+    font-family: "Amatic SC", cursive;
+    font-size: 4em;
+    color: black;
+    text-shadow: 2px 4px 2px white;
+}
+
+h3{
+   font-family: "Amatic SC", cursive;
+   font-size: 1.5em; 
+   text-align: center;
+}
+
+p{
+  font-family: "raleway";
+  text-align: center;
+}
+
+/* Navigation*/
+
+nav {
+  display: flex;
+  justify-content: space-around; 
+  text-align: center;
+}
+nav ul{
+  display: flex;
+  width: 900px;
+  justify-content: space-around;
+  position: relative;
+  bottom: -38px;
+}
+
+nav a{
+  display: block;
+  height: 35px;
+  width: 180px;
+  background-color: #6a2135;
+  border-radius: 10px;
+  font-family: "Raleway", cursive;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+/* Corps de la page*/
+
+
+#principal{
+    background-image: url("https://www.sortiraparis.com/images/55/77381/353366-la-compagnie-de-cirque-the-rat-pack-presente-speakeasy-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+    width: 900px;   
+    margin: auto;
+    background-color: ghostwhite;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#conteneur{
+    display:flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.performance1{
+    width: 25%;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: rgb(80, 23, 32);
+    opacity: 0.8;
+}
+
+.performance2{
+    width: 25%;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: rgb(80, 23, 32);
+    opacity: 0.8;
+}
+
+.performance3{
+    width: 25%;
+    border: 2px black solid;
+    border-radius: 15px;
+    background-color: rgb(80, 23, 32);
+    opacity: 0.8;
+}
+
+ul{
+    list-style: none;
+    color: white;
+}
+
+/* About Us*/
+
+.About{
+  text-align: center;
+  font-family: "raleway", cursive;
+}
+
+img{
+  width: 40%;
+  padding-bottom: 50px;
+}
+
+.About h2{
+    background-color: white;
+    opacity: 0.5;
+}
+
+/* Tableau de prix*/
+
+
+#tableau{
+    background-image: url("https://www.hebergeur-image.com/upload/92.88.248.31-5cd3ecca18c35.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 500px;
+}
+
+table{
+    margin: auto;
+    background-color: antiquewhite;
+    font-family:  "Amatic SC", cursive;
+    font-size: 1.5em;
+    position: relative;
+    top: 100px;
+}
+
+td{
+    text-align: center;
+    font-family: "raleway", cursive;
+}
+
+#tableau h2{
+    background-color: antiquewhite;
+    opacity: 0.7;
+}
+
+/* Contact*/
+
+form {
+    margin: 0 auto;
+    width: 550px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 2em;
+  }
+
+  form div + div {
+    margin-top: 1em;
+  }
+
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+
+  input, textarea {
+    font: 1em sans-serif;
+    width: 350px;
+    box-sizing: border-box;
+    border: 2px solid #999;
+  }
+
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+
+  .button {
+    padding-left: 180px;
+}
+
+  button {
+    margin-left: .5em;
+  }
+
+
+/* Footer*/
+
+footer{
+  text-align: center;
+  background-color: white;
+  opacity: 0.7;
+}
+
+.sololearn{
+    width: 50px;
+}
+  
+.france-ioi{
+    width: 55px;
+}
+.wildcodeschool{
+    width: 60px;
+}
+
+footer a{
+    padding: 60px;
+}
